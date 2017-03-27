@@ -73,9 +73,9 @@ kernelmajversion: '3.10'
 kernelrelease: 3.10.0-514.2.2.el7.x86_64
 kernelversion: 3.10.0
 load_averages:
-  15m: 0.91
-  1m: 0.04
-  5m: 0.45
+  15m: 1.05
+  1m: 1.44
+  5m: 1.35
 lsbdistcodename: Core
 lsbdistdescription: CentOS Linux release 7.3.1611 (Core)
 lsbdistid: CentOS
@@ -89,30 +89,30 @@ macaddress_enp0s3: 08:00:27:69:da:92
 manufacturer: innotek GmbH
 memory:
   swap:
-    available: 885.60 MiB
-    available_bytes: 928620544
-    capacity: 13.52%
+    available: 538.57 MiB
+    available_bytes: 564736000
+    capacity: 47.40%
     total: 1.00 GiB
     total_bytes: 1073737728
-    used: 138.39 MiB
-    used_bytes: 145117184
+    used: 485.42 MiB
+    used_bytes: 509001728
   system:
-    available: 271.91 MiB
-    available_bytes: 285122560
-    capacity: 90.45%
+    available: 384.08 MiB
+    available_bytes: 402735104
+    capacity: 86.51%
     total: 2.78 GiB
     total_bytes: 2985844736
-    used: 2.52 GiB
-    used_bytes: 2700722176
-memoryfree: 271.91 MiB
-memoryfree_mb: 271.9140625
+    used: 2.41 GiB
+    used_bytes: 2583109632
+memoryfree: 384.08 MiB
+memoryfree_mb: 384.078125
 memorysize: 2.78 GiB
 memorysize_mb: 2847.5234375
 mountpoints:
   "/":
-    available: 13.44 GiB
-    available_bytes: 14428827648
-    capacity: 27.19%
+    available: 13.28 GiB
+    available_bytes: 14257451008
+    capacity: 28.05%
     device: "/dev/mapper/centos-root"
     filesystem: xfs
     options:
@@ -123,8 +123,8 @@ mountpoints:
     - noquota
     size: 18.46 GiB
     size_bytes: 19815989248
-    used: 5.02 GiB
-    used_bytes: 5387161600
+    used: 5.18 GiB
+    used_bytes: 5558538240
   "/boot":
     available: 325.86 MiB
     available_bytes: 341684224
@@ -156,9 +156,9 @@ mountpoints:
     used: 4.00 KiB
     used_bytes: 4096
   "/run":
-    available: 1.34 GiB
-    available_bytes: 1438326784
-    capacity: 3.66%
+    available: 1.32 GiB
+    available_bytes: 1419661312
+    capacity: 4.91%
     device: tmpfs
     filesystem: tmpfs
     options:
@@ -168,8 +168,8 @@ mountpoints:
     - mode=755
     size: 1.39 GiB
     size_bytes: 1492922368
-    used: 52.07 MiB
-    used_bytes: 54595584
+    used: 69.87 MiB
+    used_bytes: 73261056
   "/run/user/0":
     available: 284.75 MiB
     available_bytes: 298586112
@@ -223,9 +223,9 @@ mountpoints:
     used: 0 bytes
     used_bytes: 0
   "/var/lib/docker/devicemapper":
-    available: 13.44 GiB
-    available_bytes: 14428827648
-    capacity: 27.19%
+    available: 13.28 GiB
+    available_bytes: 14257451008
+    capacity: 28.05%
     device: "/dev/mapper/centos-root"
     filesystem: xfs
     options:
@@ -236,8 +236,8 @@ mountpoints:
     - noquota
     size: 18.46 GiB
     size_bytes: 19815989248
-    used: 5.02 GiB
-    used_bytes: 5387161600
+    used: 5.18 GiB
+    used_bytes: 5558538240
 mtu_docker0: 1500
 mtu_enp0s3: 1500
 mtu_lo: 65536
@@ -437,20 +437,20 @@ sshfp_rsa: |-
   SSHFP 1 2 da7a06517bd53ab42abef342df3b5e776775dcee19049781131c1ad654295a51
 sshrsakey: AAAAB3NzaC1yc2EAAAADAQABAAABAQDjp1PuZnOUZOUieQ2qMv0MlTaIjkAnYkpsgKumicsa8wjqGvvLngHB7DuFSJvXKeR5UFOYOGgw6wlKzj7oinNAmFFgkegnUsqlPCXfyVUljZw4/DfmH49KDZJpp8hKN87Ne0Z4tUhaD9ndjm+fWUUKy8Ykn6N5ClOjOiTrI+85YMb4I3/g0NciUdnnJ6ItWlttyUJmeNykYMsQie8OJWqw3bvc7um586lh0/i1DAlhu+DcNbJ9poaUeGLaXJSRGeymlLtAqpUTHl0fAiG7bs/8aRZzzjKlc1QCoHVzBte8meHQ2m9CJDdeTHOX2XBjG28NUErlpFi0vdI3X37xerqf
 staging_http_get: curl
-swapfree: 885.60 MiB
-swapfree_mb: 885.6015625
+swapfree: 538.57 MiB
+swapfree_mb: 538.57421875
 swapsize: 1.00 GiB
 swapsize_mb: 1023.99609375
 system_uptime:
   days: 0
-  hours: 5
-  seconds: 19512
-  uptime: 5:25 hours
+  hours: 7
+  seconds: 26710
+  uptime: 7:25 hours
 timezone: PDT
-uptime: 5:25 hours
+uptime: 7:25 hours
 uptime_days: 0
-uptime_hours: 5
-uptime_seconds: 19512
+uptime_hours: 7
+uptime_seconds: 26710
 uuid: A8C3B00E-6452-4785-A310-30803D06D5E7
 virtual: virtualbox
 clientcert: learning.puppetlabs.vm
